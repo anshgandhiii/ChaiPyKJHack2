@@ -11,7 +11,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        {/* <Route path="teams" element={<Teams />} /> */}
         <Route path="" element={ <LandingPage />} />
         <Route path="login" element={<Login />} />
         <Route path="profile" element={<Profile />} />

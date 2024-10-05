@@ -1,4 +1,9 @@
 # npm i
+# npm install react-icons react-router-dom
+# npm install lucide-react
+# npm install recharts
+
+
 
 # pip install django-cors-headers
 # pip install django djangorestframework

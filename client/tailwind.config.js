@@ -1,14 +1,17 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+// tailwind.config.js
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "node_modules/tw-elements-react/dist/js/**/*.js"
   ],
   theme: {
     extend: {},
   },
   plugins: [
     require('daisyui'),
+    require('tw-elements-react/dist/plugin')
   ],
+  daisyui: {
+    themes: ["light", "dark"], 
+  },
 }
-
